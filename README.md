@@ -1,8 +1,7 @@
-# Helm repository for Flux and Helm operator charts
+# FluxCD Helm repository
 
 Add FluxCD repository to Helm repos:
 
 ```bash
 helm repo add fluxcd https://charts.fluxcd.io
 ```
-
