@@ -14,7 +14,8 @@ helm upgrade -i flux fluxcd/flux \
 --set git.url=git@github.com:org/repo
 ```
 
-Flux install docs: [docs.fluxcd.io](https://docs.fluxcd.io/en/latest/tutorials/get-started-helm.html).
+For more details on installing Flux please see the [chart readme]
+(https://github.com/fluxcd/flux/tree/master/chart/flux).
 
 Install Helm Operator:
 
@@ -24,4 +25,5 @@ helm upgrade -i helm-operator fluxcd/helm-operator \
 --set createCRD=true
 ```
 
-Helm Operator install docs: [docs.fluxcd.io](https://github.com/fluxcd/helm-operator/tree/master/chart/helm-operator).
+For more details on installing Flux Helm Operator please see the [chart readme]
+(https://github.com/fluxcd/helm-operator/tree/master/chart/helm-operator).
