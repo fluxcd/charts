@@ -6,7 +6,7 @@ Add FluxCD repository to Helm repos:
 helm repo add fluxcd https://charts.fluxcd.io
 ```
 
-Install Flux:
+### Install Flux
 
 ```bash
 helm upgrade -i flux fluxcd/flux \
@@ -16,7 +16,7 @@ helm upgrade -i flux fluxcd/flux \
 
 For more details on installing Flux please see the [chart readme](https://github.com/fluxcd/flux/tree/master/chart/flux).
 
-Install Helm Operator:
+### Install Helm Operator
 
 ```bash
 helm upgrade -i helm-operator fluxcd/helm-operator \
