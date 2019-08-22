@@ -1,4 +1,4 @@
-# FluxCD Helm Repository
+# Flux CD Helm Repository
 
 Add FluxCD repository to Helm repos:
 
