@@ -25,3 +25,4 @@ helm upgrade -i helm-operator fluxcd/helm-operator \
 ```
 
 For more details on installing Flux Helm Operator please see the [chart readme](https://github.com/fluxcd/helm-operator/tree/master/chart/helm-operator).
+
