@@ -1,5 +1,7 @@
 # Flux CD Helm Repository
 
+![FluxCD](https://raw.githubusercontent.com/fluxcd/flux/master/docs/_files/flux-logo-vertical%402x.png)
+
 Add FluxCD repository to Helm repos:
 
 ```bash
@@ -19,6 +21,7 @@ For more details on installing Flux please see the [chart readme](https://github
 ## Install Helm Operator
 
 ```bash
+
 helm upgrade -i helm-operator fluxcd/helm-operator \
 --namespace fluxcd \
 --set createCRD=true
