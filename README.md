@@ -21,7 +21,7 @@ For more details on installing Flux please see the [chart readme](https://github
 ```bash
 helm upgrade -i helm-operator fluxcd/helm-operator \
 --namespace fluxcd \
---set git.url=git@github.com:org/repo \
+--set git.ssh.secretName=flux-git-deploy \
 --set createCRD=true
 ```
 
