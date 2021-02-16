@@ -2,8 +2,28 @@ apiVersion: v1
 entries:
   flux:
   - apiVersion: v1
+    appVersion: 1.21.2
+    created: "2021-02-16T17:28:52.598334514Z"
+    description: Flux is a tool that automatically ensures that the state of a cluster
+      matches what is specified in version control
+    digest: 10515e0fcff369fdd66c88a966485a69e82821aa16fd1fa798478792b043b68f
+    home: https://fluxcd.io
+    icon: https://raw.githubusercontent.com/fluxcd/flux/master/docs/_files/weave-flux.png
+    keywords:
+    - gitops
+    kubeVersion: '>=1.9.0-0'
+    maintainers:
+    - email: stefan@weave.works
+      name: stefanprodan
+    name: flux
+    sources:
+    - https://github.com/fluxcd/flux
+    urls:
+    - https://charts.fluxcd.io/flux-1.6.2.tgz
+    version: 1.6.2
+  - apiVersion: v1
     appVersion: 1.21.1
-    created: "2021-02-04T15:56:42.489337207Z"
+    created: "2021-02-16T17:28:52.596782033Z"
     description: Flux is a tool that automatically ensures that the state of a cluster
       matches what is specified in version control
     digest: fa2195d55ab029a7b474787563c654d2250e124274f74dedfdd15f4fdc128ff8
@@ -23,7 +43,7 @@ entries:
     version: 1.6.1
   - apiVersion: v1
     appVersion: 1.21.0
-    created: "2021-02-04T15:56:42.487412605Z"
+    created: "2021-02-16T17:28:52.595303157Z"
     description: Flux is a tool that automatically ensures that the state of a cluster
       matches what is specified in version control
     digest: 774e10b235f31b2b182a9a1733ed622c323f31a91541c99601312d7ed3b35bd8
@@ -43,7 +63,7 @@ entries:
     version: 1.6.0
   - apiVersion: v1
     appVersion: 1.20.2
-    created: "2021-02-04T15:56:42.485738203Z"
+    created: "2021-02-16T17:28:52.593928386Z"
     description: Flux is a tool that automatically ensures that the state of a cluster
       matches what is specified in version control
     digest: 75a03eccb588cd4944813be741adb8d46aff3cf2671205f6dc92ce33509f9fd4
@@ -63,7 +83,7 @@ entries:
     version: 1.5.0
   - apiVersion: v1
     appVersion: 1.20.1
-    created: "2021-02-04T15:56:42.484056801Z"
+    created: "2021-02-16T17:28:52.592516313Z"
     description: Flux is a tool that automatically ensures that the state of a cluster
       matches what is specified in version control
     digest: 5a2065f745dd6108212368c515e2e088004bcbb3ad9c3db89117cea3f580eb34
@@ -83,7 +103,7 @@ entries:
     version: 1.4.1
   - apiVersion: v1
     appVersion: 1.20.0
-    created: "2021-02-04T15:56:42.4824998Z"
+    created: "2021-02-16T17:28:52.590762222Z"
     description: Flux is a tool that automatically ensures that the state of a cluster
       matches what is specified in version control
     digest: abe592df39ec234e29989875b083aaeea850f504317704fa2656dcba6ec882aa
@@ -103,7 +123,7 @@ entries:
     version: 1.4.0
   - apiVersion: v1
     appVersion: 1.19.0
-    created: "2021-02-04T15:56:42.480755998Z"
+    created: "2021-02-16T17:28:52.588861923Z"
     description: Flux is a tool that automatically ensures that the state of a cluster
       matches what is specified in version control
     digest: 395806d01d554cef528e6b38b1731797f5efc906adcfd361750a021c24ffbb2e
@@ -123,7 +143,7 @@ entries:
     version: 1.3.0
   - apiVersion: v1
     appVersion: 1.18.0
-    created: "2021-02-04T15:56:42.479169496Z"
+    created: "2021-02-16T17:28:52.587553456Z"
     description: Flux is a tool that automatically ensures that the state of a cluster
       matches what is specified in version control
     digest: 5722d563478f99a4e070ed5f023fb607b8c61490ae95ac5f856fad55e4a144ba
@@ -143,7 +163,7 @@ entries:
     version: 1.2.0
   - apiVersion: v1
     appVersion: 1.17.1
-    created: "2021-02-04T15:56:42.477110594Z"
+    created: "2021-02-16T17:28:52.586317692Z"
     description: Flux is a tool that automatically ensures that the state of a cluster
       matches what is specified in version control
     digest: 3b9f6699eaa05356cf6a121f8cd932af538e357e26cd73d86b740267a54d572d
@@ -163,7 +183,7 @@ entries:
     version: 1.1.0
   - apiVersion: v1
     appVersion: 1.17.0
-    created: "2021-02-04T15:56:42.475275992Z"
+    created: "2021-02-16T17:28:52.585035125Z"
     description: Flux is a tool that automatically ensures that the state of a cluster
       matches what is specified in version control
     digest: 9957a58674c8163ea686d46566b456413939692327f6597a98ef3b4ba92877d6
@@ -183,7 +203,7 @@ entries:
     version: 1.0.0
   - apiVersion: v1
     appVersion: 1.16.0
-    created: "2021-02-04T15:56:42.447419863Z"
+    created: "2021-02-16T17:28:52.559399498Z"
     description: Flux is a tool that automatically ensures that the state of a cluster
       matches what is specified in version control
     digest: 87808cb840708d9500267760ee9714add0583b66d07330624fc75718eaac0c5a
@@ -203,7 +223,7 @@ entries:
     version: 0.16.0
   - apiVersion: v1
     appVersion: 1.15.0
-    created: "2021-02-04T15:56:42.445851061Z"
+    created: "2021-02-16T17:28:52.558131132Z"
     description: Flux is a tool that automatically ensures that the state of a cluster
       matches what is specified in version control
     digest: e2193180ba09f402ce15fd886544cb97b387a970c4de5e04aef0b0ded71ce0a1
@@ -223,7 +243,7 @@ entries:
     version: 0.15.0
   - apiVersion: v1
     appVersion: 1.14.2
-    created: "2021-02-04T15:56:42.444078459Z"
+    created: "2021-02-16T17:28:52.556824664Z"
     description: Flux is a tool that automatically ensures that the state of a cluster
       matches what is specified in version control
     digest: b2d92a0a1e5817b35ce8926ca69c1db6f2d24fc0cb6d46af7788a736286f0807
@@ -243,7 +263,7 @@ entries:
     version: 0.14.1
   - apiVersion: v1
     appVersion: 1.14.1
-    created: "2021-02-04T15:56:42.442395758Z"
+    created: "2021-02-16T17:28:52.555539498Z"
     description: Flux is a tool that automatically ensures that the state of a cluster
       matches what is specified in version control
     digest: a69ccc15246c1def4f471dc3cb41265432ce4efd425e73f2f67a1d2c4b8ea873
@@ -263,7 +283,7 @@ entries:
     version: 0.14.0
   - apiVersion: v1
     appVersion: 1.14.0
-    created: "2021-02-04T15:56:42.440489956Z"
+    created: "2021-02-16T17:28:52.554272032Z"
     description: Flux is a tool that automatically ensures that the state of a cluster
       matches what is specified in version control
     digest: cae6049a0773d7de1e769d743a912398ef38c563305db612567448840aa7b3be
@@ -283,7 +303,7 @@ entries:
     version: 0.13.0
   - apiVersion: v1
     appVersion: 1.13.3
-    created: "2021-02-04T15:56:42.439009054Z"
+    created: "2021-02-16T17:28:52.552937063Z"
     description: Flux is a tool that automatically ensures that the state of a cluster
       matches what is specified in version control
     digest: 42078e16f54beecebd968c8affb18d622a8585248f041482c837c7b15409b705
@@ -303,7 +323,7 @@ entries:
     version: 0.12.0
   - apiVersion: v1
     appVersion: 1.13.2
-    created: "2021-02-04T15:56:42.435565351Z"
+    created: "2021-02-16T17:28:52.551623495Z"
     description: Flux is a tool that automatically ensures that the state of a cluster
       matches what is specified in version control
     digest: 51c8a3b89c1d535f4fe38c9e38458c4852800f91969c9d5c21427379ec276b57
@@ -323,7 +343,7 @@ entries:
     version: 0.11.0
   - apiVersion: v1
     appVersion: 1.13.1
-    created: "2021-02-04T15:56:42.434173649Z"
+    created: "2021-02-16T17:28:52.55017792Z"
     description: Flux is a tool that automatically ensures that the state of a cluster
       matches what is specified in version control
     digest: 1b7860a0edf4682c076d1f34625174a421d3e097ba32844d577b71990fe01195
@@ -343,7 +363,7 @@ entries:
     version: 0.10.2
   - apiVersion: v1
     appVersion: 1.13.0
-    created: "2021-02-04T15:56:42.432715548Z"
+    created: "2021-02-16T17:28:52.547896102Z"
     description: Flux is a tool that automatically ensures that the state of a cluster
       matches what is specified in version control
     digest: ac4e127abc8b9d0ad983c6e998e61d8719e0b3285749226d5cceb970a9e73a60
@@ -363,7 +383,7 @@ entries:
     version: 0.10.1
   - apiVersion: v1
     appVersion: 1.13.0
-    created: "2021-02-04T15:56:42.431398846Z"
+    created: "2021-02-16T17:28:52.546723341Z"
     description: Flux is a tool that automatically ensures that the state of a cluster
       matches what is specified in version control
     digest: 089f6de0645fe027c1b2aa740aef7ffd11fd25ff8dcf913378e72645ed82fdf1
@@ -383,7 +403,7 @@ entries:
     version: 0.10.0
   - apiVersion: v1
     appVersion: 1.12.3
-    created: "2021-02-04T15:56:42.47378609Z"
+    created: "2021-02-16T17:28:52.583856064Z"
     description: Flux is a tool that automatically ensures that the state of a cluster
       matches what is specified in version control
     digest: b59363e1b52df90c00683ba1d6e4f85ed73454c07cca4d29b4c8c3b7a2009ecd
@@ -403,7 +423,7 @@ entries:
     version: 0.9.5
   - apiVersion: v1
     appVersion: 1.12.2
-    created: "2021-02-04T15:56:42.472320889Z"
+    created: "2021-02-16T17:28:52.582640601Z"
     description: Flux is a tool that automatically ensures that the state of a cluster
       matches what is specified in version control
     digest: f1e7908ee0edb3e70027a13ac227dbc6be31bacfb0262e717b1f6200e62a43ed
@@ -423,7 +443,7 @@ entries:
     version: 0.9.4
   - apiVersion: v1
     appVersion: 1.12.2
-    created: "2021-02-04T15:56:42.470672787Z"
+    created: "2021-02-16T17:28:52.581500142Z"
     description: Flux is a tool that automatically ensures that the state of a cluster
       matches what is specified in version control
     digest: dfb75fb8bfd6211ba2d16e1b13a67002337a22506ba6273140b07d877005bfff
@@ -443,7 +463,7 @@ entries:
     version: 0.9.3
   - apiVersion: v1
     appVersion: 1.12.1
-    created: "2021-02-04T15:56:42.469282086Z"
+    created: "2021-02-16T17:28:52.580401685Z"
     description: Flux is a tool that automatically ensures that the state of a cluster
       matches what is specified in version control
     digest: 3e5eb9baf6f819b153696379e2fd0e22d76ee9c13975f2a3e07ab82d4ce42cc1
@@ -463,7 +483,7 @@ entries:
     version: 0.9.2
   - apiVersion: v1
     appVersion: 1.12.0
-    created: "2021-02-04T15:56:42.467985284Z"
+    created: "2021-02-16T17:28:52.57894051Z"
     description: Flux is a tool that automatically ensures that the state of a cluster
       matches what is specified in version control
     digest: 055eedb53d4f2e6b5202b5899b6002477a95595932fb32353b9680479836e179
@@ -483,7 +503,7 @@ entries:
     version: 0.9.1
   - apiVersion: v1
     appVersion: 1.12.0
-    created: "2021-02-04T15:56:42.466844383Z"
+    created: "2021-02-16T17:28:52.577171918Z"
     description: Flux is a tool that automatically ensures that the state of a cluster
       matches what is specified in version control
     digest: 870c7bf161f5868c0728b2a977ec77c46839c5b1e23614408ee7e08f16c07c7f
@@ -503,7 +523,7 @@ entries:
     version: 0.9.0
   - apiVersion: v1
     appVersion: 1.11.1
-    created: "2021-02-04T15:56:42.465577382Z"
+    created: "2021-02-16T17:28:52.575880351Z"
     description: Flux is a tool that automatically ensures that the state of a cluster
       matches what is specified in version control
     digest: 7898830c4ea226e2dc6b334b844006f98313729315b085867c77147937a5eadf
@@ -523,7 +543,7 @@ entries:
     version: 0.8.0
   - apiVersion: v1
     appVersion: 1.11.0
-    created: "2021-02-04T15:56:42.46386248Z"
+    created: "2021-02-16T17:28:52.574796595Z"
     description: Flux is a tool that automatically ensures that the state of a cluster
       matches what is specified in version control
     digest: c16425e92660591971175429b5e6a2c85af07ef6dd5131a9eed0e961473693d6
@@ -543,7 +563,7 @@ entries:
     version: 0.7.0
   - apiVersion: v1
     appVersion: 1.10.1
-    created: "2021-02-04T15:56:42.461797078Z"
+    created: "2021-02-16T17:28:52.573802143Z"
     description: Flux is a tool that automatically ensures that the state of a cluster
       matches what is specified in version control
     digest: 30ef3f035fd69a0c92f8a61945ca3bcd9b2ce9a69a6d7b4013a3c7aed8a55efe
@@ -563,7 +583,7 @@ entries:
     version: 0.6.3
   - apiVersion: v1
     appVersion: 1.10.0
-    created: "2021-02-04T15:56:42.460377476Z"
+    created: "2021-02-16T17:28:52.572848994Z"
     description: Flux is a tool that automatically ensures that the state of a cluster
       matches what is specified in version control
     digest: c525aa4881e46a5aaf74ced2ded99c4328263caeb27c8304d25c5dd99bc9bbfb
@@ -583,7 +603,7 @@ entries:
     version: 0.6.2
   - apiVersion: v1
     appVersion: 1.10.0
-    created: "2021-02-04T15:56:42.459161175Z"
+    created: "2021-02-16T17:28:52.571933647Z"
     description: Flux is a tool that automatically ensures that the state of a cluster
       matches what is specified in version control
     digest: 93fcab5eeac71ea16b343be3408f2c1b09f6a7904f69d2ecb0d37e94fd62646e
@@ -603,7 +623,7 @@ entries:
     version: 0.6.1
   - apiVersion: v1
     appVersion: 1.9.0
-    created: "2021-02-04T15:56:42.458042674Z"
+    created: "2021-02-16T17:28:52.570978197Z"
     description: Flux is a tool that automatically ensures that the state of a cluster
       matches what is specified in version control
     digest: 22c2b68fa51bf2642b1acdbd46860d557feec4b3a7b44c89ff1f33b6a11e323e
@@ -623,7 +643,7 @@ entries:
     version: 0.6.0
   - apiVersion: v1
     appVersion: 1.8.2
-    created: "2021-02-04T15:56:42.456973273Z"
+    created: "2021-02-16T17:28:52.570043849Z"
     description: Flux is a tool that automatically ensures that the state of a cluster
       matches what is specified in version control
     digest: 6f3e2489915eb3f80f2a0e95dd77a2dc1215d27381499e8c929cc1125219eb55
@@ -643,7 +663,7 @@ entries:
     version: 0.5.2
   - apiVersion: v1
     appVersion: 1.8.1
-    created: "2021-02-04T15:56:42.455792672Z"
+    created: "2021-02-16T17:28:52.569110801Z"
     description: Flux is a tool that automatically ensures that the state of a cluster
       matches what is specified in version control
     digest: c3f40a78c09dbe6b4790af4cad8deac2178550c42d2ba393c2a91f8cf9321912
@@ -660,7 +680,7 @@ entries:
     version: 0.5.1
   - apiVersion: v1
     appVersion: 1.8.0
-    created: "2021-02-04T15:56:42.454969871Z"
+    created: "2021-02-16T17:28:52.568310759Z"
     description: Flux is a tool that automatically ensures that the state of a cluster
       matches what is specified in version control
     digest: 02f548019c45543e27cfdf70e8cb3260d93c88891d29d39d166ef03096da3e28
@@ -677,7 +697,7 @@ entries:
     version: 0.4.1
   - apiVersion: v1
     appVersion: 1.8.0
-    created: "2021-02-04T15:56:42.45411367Z"
+    created: "2021-02-16T17:28:52.567351209Z"
     description: Flux is a tool that automatically ensures that the state of a cluster
       matches what is specified in version control
     digest: c989e3b21bedc426ab6207cd5eeb7d0bfd0adfe6ec11eb11752b4c6ca6aeedfc
@@ -694,7 +714,7 @@ entries:
     version: 0.4.0
   - apiVersion: v1
     appVersion: 1.7.1
-    created: "2021-02-04T15:56:42.453201169Z"
+    created: "2021-02-16T17:28:52.566543868Z"
     description: Flux is a tool that automatically ensures that the state of a cluster
       matches what is specified in version control
     digest: aba6630dd6696ba1561a81c0ace40c15f243c90ef2dd0451689cd01800ec6fb9
@@ -711,7 +731,7 @@ entries:
     version: 0.3.4
   - apiVersion: v1
     appVersion: 1.7.0
-    created: "2021-02-04T15:56:42.452415568Z"
+    created: "2021-02-16T17:28:52.565694224Z"
     description: Flux is a tool that automatically ensures that the state of a cluster
       matches what is specified in version control
     digest: e124471a7b0de2726446215e88a474ee12618a8df4a225c08e3529ff57ee5645
@@ -728,7 +748,7 @@ entries:
     version: 0.3.3
   - apiVersion: v1
     appVersion: 1.6.0
-    created: "2021-02-04T15:56:42.451634667Z"
+    created: "2021-02-16T17:28:52.564734674Z"
     description: Flux is a tool that automatically ensures that the state of a cluster
       matches what is specified in version control
     digest: 8c05bf9b7fd492398465cb93e6ea3d510848d6c07227adee17e160f51b49faa2
@@ -745,7 +765,7 @@ entries:
     version: 0.3.2
   - apiVersion: v1
     appVersion: 1.5.0
-    created: "2021-02-04T15:56:42.450526066Z"
+    created: "2021-02-16T17:28:52.563764724Z"
     description: Flux is a tool that automatically ensures that the state of a cluster
       matches what is specified in version control
     digest: 931e4f28842e41b8fc50b18496d569f7d80f21c19c85e708c0b8caee61beecef
@@ -762,7 +782,7 @@ entries:
     version: 0.3.0
   - apiVersion: v1
     appVersion: 1.5.0
-    created: "2021-02-04T15:56:42.449331165Z"
+    created: "2021-02-16T17:28:52.562844776Z"
     description: Flux is a tool that automatically ensures that the state of a cluster
       matches what is specified in version control
     digest: b472f311397bbafa01906ed1f2db55225350f63c0ed6c469765ad9d1443d1e91
@@ -779,7 +799,7 @@ entries:
     version: 0.2.2
   - apiVersion: v1
     appVersion: 1.4.2
-    created: "2021-02-04T15:56:42.448664864Z"
+    created: "2021-02-16T17:28:52.562013633Z"
     description: Flux is a tool that automatically ensures that the state of a cluster
       matches what is specified in version control
     digest: 7f7e69f6dff20be6eb00126e13ca7541460950d57817bd6e7b5a72ba970e7455
@@ -796,7 +816,7 @@ entries:
     version: 0.2.1
   - apiVersion: v1
     appVersion: 1.3.1
-    created: "2021-02-04T15:56:42.448036564Z"
+    created: "2021-02-16T17:28:52.560506455Z"
     description: Flux is a tool that automatically ensures that the state of a cluster
       matches what is specified in version control
     digest: f09856325904810a4a174ee5ab97f60c1cb3c7b55c330872608c12cf2d17ee69
@@ -813,7 +833,7 @@ entries:
     version: 0.2.0
   - apiVersion: v1
     appVersion: 1.4.1
-    created: "2021-02-04T15:56:42.430190145Z"
+    created: "2021-02-16T17:28:52.545251365Z"
     description: Flux is a tool that automatically ensures that the state of a cluster
       matches what is specified in version control
     digest: ca7ef8d0f06e3cf431aa68f8f59fdf98ed4a053402145c3cc2a35af990fcd4df
@@ -830,7 +850,7 @@ entries:
     version: 0.1.1
   - apiVersion: v1
     appVersion: 1.3.1
-    created: "2021-02-04T15:56:42.429525344Z"
+    created: "2021-02-16T17:28:52.544458624Z"
     description: Flux is a tool that automatically ensures that the state of a cluster
       matches what is specified in version control
     digest: 76524354dc20384546044336560f3fd3efe59ab56f39b64ed34e808e65fb50a0
@@ -848,7 +868,7 @@ entries:
   helm-operator:
   - apiVersion: v1
     appVersion: 1.2.0
-    created: "2021-02-04T15:56:42.510356529Z"
+    created: "2021-02-16T17:28:52.614049328Z"
     description: Flux Helm Operator is a CRD controller for declarative helming
     digest: b52f2346424edc7820b6af2c339f316e5fb06bf2b6b2e6086a7308cdeeb7b29d
     home: https://fluxcd.io
@@ -868,7 +888,7 @@ entries:
     version: 1.2.0
   - apiVersion: v1
     appVersion: 1.1.0
-    created: "2021-02-04T15:56:42.508215926Z"
+    created: "2021-02-16T17:28:52.612206832Z"
     description: Flux Helm Operator is a CRD controller for declarative helming
     digest: 91e36889eb8b6940b16273da2ccf57412893e5299894a2774ac489d1a72b10a8
     home: https://fluxcd.io
@@ -888,7 +908,7 @@ entries:
     version: 1.1.0
   - apiVersion: v1
     appVersion: 1.0.1
-    created: "2021-02-04T15:56:42.506256424Z"
+    created: "2021-02-16T17:28:52.611128976Z"
     description: Flux Helm Operator is a CRD controller for declarative helming
     digest: bbad703e36085b5ec62c0818d6648b1787faee1d33a1c0a908659bd491799d53
     home: https://fluxcd.io
@@ -908,7 +928,7 @@ entries:
     version: 1.0.2
   - apiVersion: v1
     appVersion: 1.0.1
-    created: "2021-02-04T15:56:42.504609623Z"
+    created: "2021-02-16T17:28:52.610094623Z"
     description: Flux Helm Operator is a CRD controller for declarative helming
     digest: 80009f9f24de914b555ca633d158fd7e7f2b7665f784920114c816e1a0d418aa
     home: https://fluxcd.io
@@ -928,7 +948,7 @@ entries:
     version: 1.0.1
   - apiVersion: v1
     appVersion: 1.0.0
-    created: "2021-02-04T15:56:42.502956421Z"
+    created: "2021-02-16T17:28:52.609040968Z"
     description: Flux Helm Operator is a CRD controller for declarative helming
     digest: cbb786f497f134bbbe6a8261d64f278827d1d822f27f2c28568819e59b0ec701
     home: https://fluxcd.io
@@ -948,7 +968,7 @@ entries:
     version: 1.0.0
   - apiVersion: v1
     appVersion: 1.0.0-rc9
-    created: "2021-02-04T15:56:42.501462319Z"
+    created: "2021-02-16T17:28:52.607958312Z"
     description: Flux Helm Operator is a CRD controller for declarative helming
     digest: 958ab2fd99e4c32b7ad7061a2a85fb905a93d72a99578272908f110668dae970
     home: https://fluxcd.io
@@ -968,7 +988,7 @@ entries:
     version: 0.7.0
   - apiVersion: v1
     appVersion: 1.0.0-rc8
-    created: "2021-02-04T15:56:42.500280118Z"
+    created: "2021-02-16T17:28:52.606623143Z"
     description: Flux Helm Operator is a CRD controller for declarative helming
     digest: cc5c88f221e89afca8f96440409602ecf26742c46cdd40b5603415aa4b0b2309
     home: https://fluxcd.io
@@ -988,7 +1008,7 @@ entries:
     version: 0.6.0
   - apiVersion: v1
     appVersion: 1.0.0-rc7
-    created: "2021-02-04T15:56:42.499175617Z"
+    created: "2021-02-16T17:28:52.605697495Z"
     description: Flux Helm Operator is a CRD controller for declarative helming
     digest: 2ca39bbf64e7d19944d16d3a1b636011f7675f25ba6ccc89f2352847779ebfe9
     home: https://fluxcd.io
@@ -1008,7 +1028,7 @@ entries:
     version: 0.5.0
   - apiVersion: v1
     appVersion: 1.0.0-rc5
-    created: "2021-02-04T15:56:42.497846016Z"
+    created: "2021-02-16T17:28:52.604699743Z"
     description: Flux Helm Operator is a CRD controller for declarative helming
     digest: f75f812534ff4c38a44418e5451f54e3c0b63348dbb703a79c62c7ccf5b6a9e1
     home: https://fluxcd.io
@@ -1028,7 +1048,7 @@ entries:
     version: 0.4.0
   - apiVersion: v1
     appVersion: 1.0.0-rc4
-    created: "2021-02-04T15:56:42.496632814Z"
+    created: "2021-02-16T17:28:52.603626688Z"
     description: Flux Helm Operator is a CRD controller for declarative helming
     digest: a48b7e67a1c9b981e8ff9291fa6402ae0aaeb5092d5847e7315dd5ea32630363
     home: https://fluxcd.io
@@ -1048,7 +1068,7 @@ entries:
     version: 0.3.0
   - apiVersion: v1
     appVersion: 1.0.0-rc3
-    created: "2021-02-04T15:56:42.495632913Z"
+    created: "2021-02-16T17:28:52.602342721Z"
     description: Flux Helm Operator is a CRD controller for declarative helming
     digest: 29b5b222a4628f742832efc5356331e0ea4f6d20181abd7ee50f197e5af6dae8
     home: https://fluxcd.io
@@ -1068,7 +1088,7 @@ entries:
     version: 0.2.1
   - apiVersion: v1
     appVersion: 1.0.0-rc2
-    created: "2021-02-04T15:56:42.494547912Z"
+    created: "2021-02-16T17:28:52.600945449Z"
     description: Flux Helm Operator is a CRD controller for declarative helming
     digest: e721a643ada2539ce028c9647bb0caba2144a6b741cd6c3b94a0ace00c4b1ae3
     home: https://fluxcd.io
@@ -1088,7 +1108,7 @@ entries:
     version: 0.2.0
   - apiVersion: v1
     appVersion: 1.0.0-rc1
-    created: "2021-02-04T15:56:42.491901509Z"
+    created: "2021-02-16T17:28:52.600087405Z"
     description: Flux Helm Operator is a CRD controller for declarative helming
     digest: 7b55c56bbb03a5f8083b7221ca2e435fd0b14759226c766a3e744e8e5e7b6348
     home: https://fluxcd.io
@@ -1108,7 +1128,7 @@ entries:
     version: 0.1.1
   - apiVersion: v1
     appVersion: 1.0.0-rc1
-    created: "2021-02-04T15:56:42.490389808Z"
+    created: "2021-02-16T17:28:52.59923456Z"
     description: Flux Helm Operator is a CRD controller for declarative helming
     digest: 2001e2095496b80fc2148b29508cc007abf983bda7a39385e203316f5b5ba3e3
     home: https://fluxcd.io
@@ -1126,4 +1146,4 @@ entries:
     urls:
     - https://charts.fluxcd.io/helm-operator-0.1.0.tgz
     version: 0.1.0
-generated: "2021-02-04T15:56:42.427886543Z"
+generated: "2021-02-16T17:28:52.543816091Z"
