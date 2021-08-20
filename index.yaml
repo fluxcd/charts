@@ -2,6 +2,28 @@ apiVersion: v1
 entries:
   flux:
   - apiVersion: v1
+    appVersion: 1.24.0
+    created: "2021-08-20T14:09:02.861033607Z"
+    description: Flux is a tool that automatically ensures that the state of a cluster
+      matches what is specified in version control
+    digest: 6b5a52fa9b96c206dbd4b9dd93500112490914f7e318bee9b8cb73ceedc11b6f
+    home: https://fluxcd.io
+    icon: https://raw.githubusercontent.com/fluxcd/flux/master/docs/_files/weave-flux.png
+    keywords:
+    - gitops
+    kubeVersion: '>=1.16.0-0'
+    maintainers:
+    - email: stefan@weave.works
+      name: stefanprodan
+    - email: kingdon@weave.works
+      name: kingdonb
+    name: flux
+    sources:
+    - https://github.com/fluxcd/flux
+    urls:
+    - https://charts.fluxcd.io/flux-1.11.0.tgz
+    version: 1.11.0
+  - apiVersion: v1
     appVersion: 1.23.2
     created: "2021-08-04T17:20:15.326155654Z"
     description: Flux is a tool that automatically ensures that the state of a cluster
@@ -1306,4 +1328,4 @@ entries:
     urls:
     - https://charts.fluxcd.io/helm-operator-0.1.0.tgz
     version: 0.1.0
-generated: "2021-08-04T17:20:15.3241006Z"
+generated: "2021-08-20T14:09:02.858695945Z"
