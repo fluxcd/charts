@@ -1,31 +1,14 @@
-# Flux CD Helm Repository
+# Flux v1 is Archived
 
-![FluxCD](https://raw.githubusercontent.com/fluxcd/flux/master/docs/_files/flux-logo-vertical%402x.png)
+Flux v1 was archived in November 2022 as noted on the [Migration and Support Timetable](https://fluxcd.io/flux/migration/timetable/).
+Please read the news in [Flux Legacy (v1) Retirement Plan](https://fluxcd.io/blog/2022/10/september-2022-update/#flux-legacy-v1-retirement-plan) which tells more about the free migration workshops, and other commercial support options that would still be available for some time.
 
-Add FluxCD repository to Helm repos:
+# Flux Helm Repository
 
-```bash
-helm repo add fluxcd https://charts.fluxcd.io
-```
+The Flux Official Helm Repository contains only charts for Flux v1.
 
-## Install Flux
+![FluxCD](https://raw.githubusercontent.com/fluxcd/website/main/static/img/flux-icon%402x.png)
 
-```bash
-helm upgrade -i flux fluxcd/flux \
---namespace fluxcd \
---set git.url=git@github.com:org/repo
-```
+The latest release of Flux is no longer installed via Helm charts.
 
-For more details on installing Flux please see the [chart readme](https://github.com/fluxcd/flux/tree/master/chart/flux).
-
-## Install Helm Operator
-
-```bash
-
-helm upgrade -i helm-operator fluxcd/helm-operator \
---namespace fluxcd \
---set git.ssh.secretName=flux-git-deploy \
---set createCRD=true
-```
-
-For more details on installing Flux Helm Operator please see the [chart readme](https://github.com/fluxcd/helm-operator/tree/master/chart/helm-operator).
+For more details on installing Flux please see [the docs](https://fluxcd.io/flux/) and follow the [Getting Started](https://fluxcd.io/flux/get-started/) guide.
