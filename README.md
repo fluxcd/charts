@@ -1,6 +1,6 @@
-# Flux CD Helm repository
+# Flux Helm repository
 
-Add FluxCD repository to Helm repos:
+Add Flux repository to Helm repos:
 
 ```bash
 helm repo add fluxcd https://charts.fluxcd.io
