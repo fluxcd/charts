@@ -1185,6 +1185,26 @@ entries:
     version: 0.1.0
   helm-operator:
   - apiVersion: v1
+    appVersion: 1.4.3
+    created: "2022-07-27T15:09:21.139013402Z"
+    description: Flux Helm Operator is a CRD controller for declarative helming
+    digest: 6540b6c7e64e51704513441c887e1519459e51999ce2d202201e72882c6c6d1b
+    home: https://fluxcd.io
+    icon: https://raw.githubusercontent.com/fluxcd/flux/master/docs/_files/weave-flux.png
+    keywords:
+    - gitops
+    - helm
+    kubeVersion: '>=1.16.0-0'
+    maintainers:
+    - email: stefan@weave.works
+      name: stefanprodan
+    name: helm-operator
+    sources:
+    - https://github.com/fluxcd/helm-operator
+    urls:
+    - https://charts.fluxcd.io/helm-operator-1.4.3.tgz
+    version: 1.4.3
+  - apiVersion: v1
     appVersion: 1.4.2
     created: "2022-01-05T17:10:28.609795619Z"
     description: Flux Helm Operator is a CRD controller for declarative helming
@@ -1544,4 +1564,4 @@ entries:
     urls:
     - https://charts.fluxcd.io/helm-operator-0.1.0.tgz
     version: 0.1.0
-generated: "2022-07-27T11:30:48.653640579Z"
+generated: "2022-07-27T15:09:21.135945051Z"
